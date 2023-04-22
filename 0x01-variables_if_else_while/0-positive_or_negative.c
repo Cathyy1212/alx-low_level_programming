@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main – INITIATION TO C
- * Return: RETURNING 0
+ * main - description initiation to c language
+ * Return: Returning 0
  */
 int main(void)
 {
