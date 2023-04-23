@@ -15,7 +15,7 @@ int main(void)
 	}
 	for (a = 48; a < 54; a++)
 	{
-	putchar(a + 49)
+	putchar(a + 49);
 	}
 	putchar('\n');
 	return (0);
