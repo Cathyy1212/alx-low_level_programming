@@ -10,7 +10,7 @@ int main(void)
 
 	while (b <= 'z')
 	{
-	if (b! = 'e' && b! = 'q')
+	if (b != 'e' && b != 'q')
 	{
 	putchar(b);
 	b++;
