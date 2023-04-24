@@ -10,12 +10,12 @@ int main(void)
 	int x, y;
 
 	x = 0;
-	while (a < 10)
+	while (x < 10)
 	{
 	y = 1;
 	while (y < 10)
 	{
-	if (y <= a)
+	if (y <= x)
 	{
 	y++;
 	}
