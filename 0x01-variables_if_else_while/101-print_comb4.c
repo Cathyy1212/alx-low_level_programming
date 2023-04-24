@@ -21,7 +21,7 @@ int main(void)
 	z = 2;
 	while (z < 10)
 	{
-	if (z <= b)
+	if (z <= y)
 	z++;
 	else
 	{
