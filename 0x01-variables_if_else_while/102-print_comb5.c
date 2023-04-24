@@ -14,7 +14,7 @@ int main(void)
 	x = y;
 	while (y <=99)
 	{
-	if (y != a)
+	if (y != x)
 	{
 	putchar((x/10)+48);
 	putchar((x%10)+48);
