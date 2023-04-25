@@ -1,11 +1,10 @@
 #include "main.h"
 /**
  * main - functions Nested loops
- * @c: description of C
  * Return: returning 0
  */
 
-void print_alphabet(void)
+void print_alphabet(void)@c: description of C
 {
 	int f;
 
