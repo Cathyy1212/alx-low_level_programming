@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * main - functions Nested loops
+ * @c: description of C
  * Return: returning 0
  */
 
