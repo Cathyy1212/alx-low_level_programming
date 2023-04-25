@@ -1,5 +1,5 @@
 #include "main.h"
-/**	
+/**
  * main - functions Nested loops
  * Return: returning 0
  */
