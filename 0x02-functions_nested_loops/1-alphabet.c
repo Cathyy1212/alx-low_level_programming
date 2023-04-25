@@ -4,7 +4,7 @@
  * Return: returning 0
  */
 
-void print_alphabet(void)@c: description of C
+void print_alphabet(void)
 {
 	int f;
 
