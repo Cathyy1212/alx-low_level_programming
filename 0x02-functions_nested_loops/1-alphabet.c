@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * main - functions Nested loops
+ * print_alphabet - print all alphabet in lowercase
  * Return: returning 0
  */
 
