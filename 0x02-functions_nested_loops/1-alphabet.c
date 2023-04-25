@@ -3,7 +3,8 @@
  * main - functions Nested loops
  * Return: returning 0
  */
-int main(void)
+
+void print_alphabet(void)
 {
 	int f;
 
