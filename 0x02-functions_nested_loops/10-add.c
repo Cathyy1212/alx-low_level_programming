@@ -6,10 +6,18 @@
  *
  * Return: Always 0.
  */
-int main(void)
-{
-	int Result
-	Result = add(5, 6);
-	printf("Result: %d\n", Result);
+
+int add(int, int);  // function prototype
+
+int main(void) {
+		int result;
+
+	result = add(5, 6);
+	printf("Result: %d\n", result);
+
 	return 0;
+}
+
+int add(int a, int b) {
+	return a + b;
 }
