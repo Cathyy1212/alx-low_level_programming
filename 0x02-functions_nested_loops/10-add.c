@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int result = add(5, 6);
-	printf("Result: %d\n", result);
+	int n
+	n = add(5, 6);
+	printf("Result: %d\n", n);
 	return 0;
 }
