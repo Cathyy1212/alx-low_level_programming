@@ -1,4 +1,6 @@
 #include <stdio.h>
+#ifndef MYHEADER_H
+#define MYHEADER_H
 
 /**
  * main - check the code for Holberton School students.
