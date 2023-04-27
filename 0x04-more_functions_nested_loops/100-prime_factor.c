@@ -1,35 +1,27 @@
 #include "main.h"
-#include <math.h>
 
 /**
  * print_number - prints an integer
  * @n: integer to be printed
  */
-int main()
+void print_number(int n)
 {
-    long long n = 612852475143;
-    int i;
+	unsigned int n1;
 
-    // trouver les facteurs 2
-    while (n % 2 == 0)
-    {
-        n /= 2;
-    }
+	if (n < 0)
+	{
+		n1 = -n;
+		_putchar('-');
+	} else
+	{
+		n1 = n;
+	}
 
-    // n est maintenant impair
-    for (i = 3; i <= sqrt(n); i += 2)
-    {
-        while (n % i == 0)
-        {
-            n /= i;
-        }
-    }
+	if (n1 / 10)
+	{
+		print_number(n1 / 10);
+	}
 
-    // si n est supérieur à 2, c'est un facteur premier
-    if (n > 2)
-    {
-        printf("%lld\n", n);
-    }
-
-    return 0;
+	_putchar((n1 % 10) + '0');
 }
+
