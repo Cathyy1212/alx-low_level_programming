@@ -18,3 +18,4 @@ int main(void)
     printf("%d\n", n);
     return (0);
 }
+#endif /* MYHEADER_H */
