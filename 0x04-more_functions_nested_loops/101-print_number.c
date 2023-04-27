@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_number - prints an integer
+ * @n: integer to print
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+void print_number(int n)
 {
 	print_number(98);
 	_putchar('\n');
