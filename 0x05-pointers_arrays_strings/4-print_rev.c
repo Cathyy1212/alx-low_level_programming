@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 #include <stdio.h>
 
 /**
@@ -7,14 +7,20 @@
  */
 void print_rev(char *s)
 {
-	int length = 0;
-	int i;
+	int longi = 0;
+	int o;
 
-	while (s[length] != '\0')
-	length++;
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	s--;
+	for (o = longi; o > 0; o--)
+	{
+		_putchar(*s);
+		s--;
+	}
 
-	for (i = length - 1; i >= 0; i--)
-	_puts(s[i]);
-
-	_puts('\n');
+	_putchar('\n');
 }
