@@ -7,9 +7,12 @@
  *
  * Return: A pointer to the changed string.
  */
+
 char *cap_string(char *str)
+
 {
 	int i;
+
 	if (str[0] >= 'a' && str[0] <= 'z')
 		str[0] = toupper(str[0]);
 
@@ -25,5 +28,5 @@ char *cap_string(char *str)
 		}
 	}
 
-	return str;
+	return (str);
 }
