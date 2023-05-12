@@ -1,5 +1,5 @@
 #include "main.h"
-#ifndef WILDCMP_H
+
 /**
  * wildcmp - compares two strings and returns 1 if they can be considered identical
  * @s1: the first string to compare
@@ -26,5 +26,4 @@ int wildcmp(char *s1, char *s2)
 	if (*s1 == *s2 || *s2 == '?') /* normal character or wildcard match */
 		return wildcmp(s1 + 1, s2 + 1);
 	return 0; /* no match */
-}
 }
