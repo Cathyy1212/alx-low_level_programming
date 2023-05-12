@@ -1,5 +1,5 @@
 #include "main.h"
-
+#ifndef WILDCMP_H
 /**
  * wildcmp - compares two strings and returns 1 if they can be considered identical
  * @s1: the first string to compare
