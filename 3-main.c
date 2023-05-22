@@ -1,5 +1,6 @@
-#include "main.h"
 #include <stdio.h>
+#include "3-function_like_macro.h"
+#include "3-function_like_macro.h"
 
 /**
  * main - check the code
@@ -8,15 +9,11 @@
  */
 int main(void)
 {
-    int r;
+    int i;
+    int j;
 
-    r = factorial(1);
-    printf("%d\n", r);
-    r = factorial(5);
-    printf("%d\n", r);
-    r = factorial(10);
-    printf("%d\n", r);
-    r = factorial(-1024);
-    printf("%d\n", r);
+    i = ABS(-98) * 10;
+    j = ABS(98) * 10;
+    printf("%d, %d\n", i, j);
     return (0);
 }
