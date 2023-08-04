@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
- * calculate_flipped_bits - calculates the number of bits to change
- *                          to get from one number to another
- * @number1: first number
- * @number2: second number
- *
- * Return: number of bits to change
+ * flip_bits - the function
+ * @n: parameter
+ * @m: parameter
+ * Return: != 0
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int i, j = 0;
-	unsigned long int a;
-	unsigned long int b = n ^ m;
+	int i, l = 0;
+	unsigned long int j;
+	unsigned long int k = n ^ m;
 
 	for (i = 63; i >= 0; i--)
 	{
-		a = b >> i;
-		if (a & 1)
-			j++;
+		j = k >> i;
+		if (j & 1)
+			l++;
 	}
-	return (j);
+
+	return (l);
 }
